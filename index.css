@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card{
+    margin-top: 20vh;
+   width: 500px;
+   height: 400px;
+   margin-left: 30vw;
+   
+   border-radius: 20px;
+   display: flex;
+   background-color: white;
+}
+
+.im{
+    width: 250px;
+    height: 400px;
+    border-radius: 20px 0px 0px 20px ;
+}
+.im img{
+    width:250px;
+     height:400px;
+     border-radius: 20px 0px 0px 20px ;
+}
+.text{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px ;
+}
+.data{
+    background-color: white;
+    border-radius: 0px 20px 20px 0px ;
+}
+.data p{
+    font-weight: 500;
+    font-family:'Varela Round', sans-serif;
+    background-color: white;
+}
+.data h1{
+    font-weight: 700;
+    font-family:'Varela Round', sans-serif;
+    background-color: white;
+}
+.data button{
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:  hsl(158, 36%, 37%);
+}
+
+
+@media only screen and (max-width: 380px) {
+    .card{
+        margin-top: 10px;
+       width: 300px;
+       height: 500px; 
+       margin-left: 0;
+       border-radius: 20px;
+       display: flex;
+       flex-direction: column;
+       background-color: white;
+       border-radius: 20px;
+       margin-left: 30px;
+    } 
+    .im{
+        width: 300px;
+        height: 400px;
+        border-radius: 20px 20px 0px 0px ;
+        background: url('./images/image-product-mobile.jpg');
+        background-size: 100%;
+    }
+    .im img{
+       display: none;
+    }
+    .text{
+        margin-left: 20px;
+        background-color: white;
+        border-radius: 0px  0px 0px 0px ;
+    }
+}
